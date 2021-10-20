@@ -1,10 +1,22 @@
 - 👋 Hi, I’m @5u8han
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 🌱 Currently Blessing my brain with JAVA, JS, SQL, Laravel, MS Suite, Virtualization, Docker, Kubernetes and Cybergoatse.cx 
+- 📫 Come talk to me, Im Mega Friendly
 
-<!---
-5u8han/5u8han is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+⁣🚽 = 2 Minutes <br/>
+🚽 + 📱 = 5 Minutes<br/>
+🚽 + 📱 + ⁣📶 = 10 Minutes<br/>
+🚽 + 📱 + 📶 + 🔋 = Infinite 
+
+
+
+Love listening to EDM, hipop, hardcore, animix and all wierd schitt<br/>
+⁣🎤🎤🎤🎤😍🎤🎤🎤<br/>
+🎤🎤🎤🎤😍😍🎤🎤<br/>
+🎤🎤🎤🎤😍🎤😍😍<br/>
+🎤🎤🎤🎤😍🎤🎤🎤<br/>
+🎤🎤🎤🎤😍🎤🎤🎤⁣<br/>
+🎤🎤🎤🎤😍🎤🎤🎤<br/>
+🎤😍😍😍😍🎤🎤🎤<br/>
+😍😍😍😍😍🎤🎤🎤<br/>
+😍😍😍😍😍🎤🎤🎤<br/>
+🎤😍😍😍🎤🎤🎤🎤<br/>
