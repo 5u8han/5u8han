@@ -21,3 +21,11 @@ Love listening to EDM, hipop, hardcore, animix and all wierd schitt
 😍😍😍😍😍🎤🎤🎤<br/>
 😍😍😍😍😍🎤🎤🎤<br/>
 🎤😍😍😍🎤🎤🎤🎤<br/>
+
+<br>
+
+Join Me
+
+[<img align ="left" alt = "GitHub" width = "70px" src ="https://cdn-icons.flaticon.com/png/512/2274/premium/2274361.png?token=exp=1634749926~hmac=fbbd345c4a85f572d5ce09964f75b3bd">](https://github.com/5u8han)
+
+
