@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Subhan Noeman, Support Engineer in Chicago</title>
+  <desc id="d">A calm lake at dusk with slow, drifting waves.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101c30"/>
+      <stop offset="0.55" stop-color="#21405f"/>
+      <stop offset="1" stop-color="#3a6884"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="930" cy="236" r="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6dcb4" stop-opacity="0.88"/>
+      <stop offset="0.22" stop-color="#eaa98f" stop-opacity="0.48"/>
+      <stop offset="0.6" stop-color="#8a7aa6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8a7aa6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b6f89"/>
+      <stop offset="1" stop-color="#12273a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6dcb4" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#f0b9a0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f0b9a0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0b9a0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f0b9a0" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#f0b9a0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="320" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .name { font: 400 60px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #f3f6f4; letter-spacing: 0.3px; }
+    .role { font: 500 22px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #a6d6d4; letter-spacing: 0.2px; }
+    .tag  { font: 400 19px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #c6d5dc; }
+    .wave { animation: drift linear infinite; }
+    .w1 { animation-name: d1; animation-duration: 26s; }
+    .w2 { animation-name: d2; animation-duration: 36s; animation-direction: reverse; }
+    .w3 { animation-name: d3; animation-duration: 48s; }
+    @keyframes d1 { to { transform: translateX(-120px); } }
+    @keyframes d2 { to { transform: translateX(-200px); } }
+    @keyframes d3 { to { transform: translateX(-320px); } }
+    .star { animation: tw 7s ease-in-out infinite; }
+    @keyframes tw { 0%, 100% { opacity: .25; } 50% { opacity: .9; } }
+    .cloud { animation: float 34s ease-in-out infinite alternate; }
+    @keyframes float { from { transform: translateX(-10px); } to { transform: translateX(14px); } }
+    .glints { animation: shimmer 8s ease-in-out infinite; }
+    @keyframes shimmer { 0%, 100% { opacity: .7; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .wave, .star, .cloud, .glints { animation: none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="320" fill="url(#sky)"/>
+    <rect width="1280" height="320" fill="url(#glow)"/>
+
+    <circle class="star" cx="700" cy="34" r="1.4" fill="#f4efe3" opacity="0.7" style="animation-delay:0.0s"/>
+    <circle class="star" cx="760" cy="70" r="1.1" fill="#f4efe3" opacity="0.55" style="animation-delay:1.2s"/>
+    <circle class="star" cx="820" cy="28" r="1.6" fill="#f4efe3" opacity="0.75" style="animation-delay:2.1s"/>
+    <circle class="star" cx="884" cy="92" r="1.2" fill="#f4efe3" opacity="0.5" style="animation-delay:0.6s"/>
+    <circle class="star" cx="1010" cy="40" r="1.5" fill="#f4efe3" opacity="0.7" style="animation-delay:3.3s"/>
+    <circle class="star" cx="1090" cy="84" r="1.1" fill="#f4efe3" opacity="0.55" style="animation-delay:1.8s"/>
+    <circle class="star" cx="1160" cy="30" r="1.6" fill="#f4efe3" opacity="0.75" style="animation-delay:2.7s"/>
+    <circle class="star" cx="1220" cy="76" r="1.2" fill="#f4efe3" opacity="0.5" style="animation-delay:0.9s"/>
+    <circle class="star" cx="1130" cy="132" r="1.0" fill="#f4efe3" opacity="0.45" style="animation-delay:3.9s"/>
+    <circle class="star" cx="980" cy="118" r="1.0" fill="#f4efe3" opacity="0.45" style="animation-delay:2.4s"/>
+    <circle class="star" cx="640" cy="92" r="1.0" fill="#f4efe3" opacity="0.4" style="animation-delay:4.2s"/>
+    <circle class="star" cx="560" cy="26" r="1.2" fill="#f4efe3" opacity="0.55" style="animation-delay:1.5s"/>
+    <circle class="star" cx="420" cy="44" r="1.0" fill="#f4efe3" opacity="0.4" style="animation-delay:3.0s"/>
+    <circle class="star" cx="300" cy="22" r="1.1" fill="#f4efe3" opacity="0.5" style="animation-delay:0.3s"/>
+    <circle class="star" cx="1250" cy="126" r="1.0" fill="#f4efe3" opacity="0.4" style="animation-delay:2.0s"/>
+
+    <g class="cloud">
+      <rect x="700" y="166" width="400" height="6" rx="3" fill="url(#streak)" opacity=".5"/>
+      <rect x="780" y="190" width="360" height="5" rx="2.5" fill="url(#streak)" opacity=".42"/>
+      <rect x="690" y="210" width="300" height="4" rx="2" fill="url(#streak)" opacity=".32"/>
+    </g>
+
+    <circle cx="930" cy="232" r="104" fill="url(#halo)"/>
+    <circle cx="930" cy="232" r="36" fill="#f8e2bd"/>
+
+    <rect y="236" width="1280" height="84" fill="url(#water)"/>
+    <ellipse cx="930" cy="258" rx="190" ry="34" fill="url(#halo)" opacity=".55"/>
+
+    <path class="wave w1" d="M-120.0,248 Q-90.0,241.0 -60.0,248 Q-30.0,255.0 0.0,248 Q30.0,241.0 60.0,248 Q90.0,255.0 120.0,248 Q150.0,241.0 180.0,248 Q210.0,255.0 240.0,248 Q270.0,241.0 300.0,248 Q330.0,255.0 360.0,248 Q390.0,241.0 420.0,248 Q450.0,255.0 480.0,248 Q510.0,241.0 540.0,248 Q570.0,255.0 600.0,248 Q630.0,241.0 660.0,248 Q690.0,255.0 720.0,248 Q750.0,241.0 780.0,248 Q810.0,255.0 840.0,248 Q870.0,241.0 900.0,248 Q930.0,255.0 960.0,248 Q990.0,241.0 1020.0,248 Q1050.0,255.0 1080.0,248 Q1110.0,241.0 1140.0,248 Q1170.0,255.0 1200.0,248 Q1230.0,241.0 1260.0,248 Q1290.0,255.0 1320.0,248 Q1350.0,241.0 1380.0,248 Q1410.0,255.0 1440.0,248 Q1470.0,241.0 1500.0,248 Q1530.0,255.0 1560.0,248 L1560.0,340 L-120.0,340 Z" fill="#a9d3dc" fill-opacity="0.14" stroke="#d6ecef" stroke-opacity="0.3" stroke-width="1.2"/>
+  <path class="wave w2" d="M-200.0,264 Q-150.0,254.0 -100.0,264 Q-50.0,274.0 0.0,264 Q50.0,254.0 100.0,264 Q150.0,274.0 200.0,264 Q250.0,254.0 300.0,264 Q350.0,274.0 400.0,264 Q450.0,254.0 500.0,264 Q550.0,274.0 600.0,264 Q650.0,254.0 700.0,264 Q750.0,274.0 800.0,264 Q850.0,254.0 900.0,264 Q950.0,274.0 1000.0,264 Q1050.0,254.0 1100.0,264 Q1150.0,274.0 1200.0,264 Q1250.0,254.0 1300.0,264 Q1350.0,274.0 1400.0,264 Q1450.0,254.0 1500.0,264 Q1550.0,274.0 1600.0,264 Q1650.0,254.0 1700.0,264 L1700.0,340 L-200.0,340 Z" fill="#2a5c76" fill-opacity="0.6" stroke="#d6ecef" stroke-opacity="0.22" stroke-width="1.2"/>
+  <path class="wave w3" d="M-320.0,284 Q-240.0,271.0 -160.0,284 Q-80.0,297.0 0.0,284 Q80.0,271.0 160.0,284 Q240.0,297.0 320.0,284 Q400.0,271.0 480.0,284 Q560.0,297.0 640.0,284 Q720.0,271.0 800.0,284 Q880.0,297.0 960.0,284 Q1040.0,271.0 1120.0,284 Q1200.0,297.0 1280.0,284 Q1360.0,271.0 1440.0,284 Q1520.0,297.0 1600.0,284 Q1680.0,271.0 1760.0,284 Q1840.0,297.0 1920.0,284 L1920.0,340 L-320.0,340 Z" fill="#173a52" fill-opacity="0.86" stroke="#d6ecef" stroke-opacity="0.18" stroke-width="1.2"/>
+
+    <g class="glints" fill="#f6dcb4">
+      <rect x="888" y="243" width="84" height="3" rx="1.5" opacity=".75"/>
+      <rect x="898" y="252" width="64" height="3" rx="1.5" opacity=".6"/>
+      <rect x="906" y="262" width="48" height="3" rx="1.5" opacity=".5"/>
+      <rect x="914" y="273" width="32" height="3" rx="1.5" opacity=".4"/>
+      <rect x="920" y="285" width="20" height="3" rx="1.5" opacity=".3"/>
+    </g>
+
+    <text class="name" x="62" y="124">Subhan Noeman</text>
+    <text class="role" x="64" y="164">Support Engineer in Chicago</text>
+    <text class="tag" x="64" y="200">I keep devices, identities and people happily connected.</text>
+  </g>
+</svg>
