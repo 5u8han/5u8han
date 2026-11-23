@@ -347,14 +347,12 @@ ROLES = [
         rows=[
             [T("Microsoft 365", "cloud", "microsoftoffice"), T("Teams", "chat", "microsoftteams"),
              T("Outlook", "mail", "microsoftoutlook"), T("SharePoint", "folder", "microsoftsharepoint"),
-             T("Intune", "laptop"), T("Surface devices", "laptop")],
+             T("Intune", "laptop"), T("Surface devices", "laptop"),
+             T("Windows", "grid", "windows11", "windows"), T("macOS", "laptop", "macos", "apple")],
             [T("Okta", "key", "okta"), T("Google Workspace", "cloud", "googleworkspace"),
-             T("MFA and SSO", "shield"), T("Password resets", "lock"),
-             T("Onboarding and offboarding", "users"), T("Executive support", "headset")],
-            [T("Teams Rooms", "video", "microsoftteams"), T("Zoom Rooms", "video", "zoom"),
-             T("AV systems", "video"), T("LAN, Wi-Fi and VPN", "wifi"),
-             T("Patching and compliance", "package"), T("Windows", "grid", "windows11", "windows"),
-             T("macOS", "laptop", "macos", "apple")],
+             T("MFA and SSO", "shield"), T("Teams Rooms", "video", "microsoftteams"),
+             T("Zoom Rooms", "video", "zoom"), T("AV systems", "video"),
+             T("Executive support", "headset")],
         ]),
     dict(
         file="02-robinhood", when="2024 – 2025",
@@ -365,13 +363,11 @@ ROLES = [
         rows=[
             [T("ServiceNow", "checklist", "servicenow"), T("Jira", "checklist", "jira"),
              T("Confluence", "book", "confluence"), T("Slack", "chat", "slack"),
-             T("Google Workspace", "cloud", "googleworkspace"), T("Microsoft 365", "cloud", "microsoftoffice")],
+             T("Google Workspace", "cloud", "googleworkspace"),
+             T("Microsoft 365", "cloud", "microsoftoffice"), T("Zoom Rooms", "video", "zoom")],
             [T("Okta", "key", "okta"), T("YubiKey", "key", "yubico"), T("FIDO2 and Touch ID", "shield"),
              T("JAMF Pro", "laptop", "jamf"), T("Apple Business Manager", "laptop", "apple"),
-             T("FleetDM", "server")],
-            [T("Zoom Rooms", "video", "zoom"), T("macOS and iOS", "phone", "apple"),
-             T("Zero-touch deployment", "package"), T("Change management", "sliders"),
-             T("Log analysis", "terminal"), T("Hardware rollouts", "package")],
+             T("FleetDM", "server"), T("Zero-touch deployment", "package")],
         ]),
     dict(
         file="03-illinois-doit", when="2024",
@@ -382,15 +378,13 @@ ROLES = [
         rows=[
             [T("SCCM / MECM", "package"), T("PXE boot", "network"), T("Intune", "laptop"),
              T("AirWatch", "phone", "vmware"), T("Active Directory", "users"),
-             T("Azure AD", "cloud", "microsoftazure")],
-            [T("ServiceNow", "checklist", "servicenow"), T("Exchange", "mail", "microsoftexchange"),
-             T("Zoom", "video", "zoom"), T("Webex", "video", "webex"),
-             T("Cisco Meraki", "network", "cisco"), T("Avaya phones", "desk-phone", "avaya")],
+             T("Azure AD", "cloud", "microsoftazure"), T("ServiceNow", "checklist", "servicenow"),
+             T("Exchange", "mail", "microsoftexchange")],
             [T("Power BI", "chart", "powerbi"), T("SolarWinds", "chart", "solarwinds"),
              T("McAfee", "shield", "mcafee"), T("PowerShell", "terminal", "powershell"),
              T("SQL", "database"), T("ESXi and vSphere", "server", "vmware"),
              T("Citrix", "server", "citrix"), T("Zscaler", "shield", "zscaler"),
-             T("OpenVPN", "lock", "openvpn")],
+             T("Webex", "video", "webex")],
         ]),
     dict(
         file="04-kirkland-ellis", when="2024",
@@ -401,13 +395,12 @@ ROLES = [
         rows=[
             [T("Active Directory", "users"), T("Azure AD", "cloud", "microsoftazure"),
              T("SCCM", "package"), T("Intune", "laptop"), T("AirWatch", "phone", "vmware"),
-             T("Windows 10", "grid", "windows11", "windows")],
-            [T("Outlook", "mail", "microsoftoutlook"), T("iManage", "folder"),
-             T("Microsoft 365", "cloud", "microsoftoffice"), T("VMware ESXi", "server", "vmware"),
-             T("macOS", "laptop", "macos", "apple")],
-            [T("Avaya CM", "desk-phone", "avaya"), T("SolarWinds", "chart", "solarwinds"),
-             T("VLAN and QoS", "network"), T("iOS and Android MDM", "phone"),
-             T("Secure printing", "printer"), T("White-glove support", "headset")],
+             T("Windows 10", "grid", "windows11", "windows"),
+             T("Outlook", "mail", "microsoftoutlook"), T("macOS", "laptop", "macos", "apple")],
+            [T("iManage", "folder"), T("Microsoft 365", "cloud", "microsoftoffice"),
+             T("VMware ESXi", "server", "vmware"), T("Avaya CM", "desk-phone", "avaya"),
+             T("SolarWinds", "chart", "solarwinds"), T("VLAN and QoS", "network"),
+             T("White-glove support", "headset")],
         ]),
     dict(
         file="05-alter-domus", when="2023 – 2024",
@@ -419,15 +412,12 @@ ROLES = [
             [T("ServiceNow", "checklist", "servicenow"), T("Confluence", "book", "confluence"),
              T("Active Directory", "users"), T("Azure AD", "cloud", "microsoftazure"),
              T("Microsoft 365", "cloud", "microsoftoffice"), T("Google Workspace", "cloud", "googleworkspace"),
-             T("Salesforce", "cloud", "salesforce"), T("DocuSign", "mail", "docusign")],
-            [T("VMware ESXi", "server", "vmware"), T("SCCM", "package"),
-             T("Cisco CUCM", "desk-phone", "cisco"), T("Cisco Catalyst", "network", "cisco"),
-             T("Sophos Firewall", "shield", "sophos"), T("Dell, HPE, Supermicro", "server", "dell")],
-            [T("Wireshark", "network", "wireshark"), T("SolarWinds", "chart", "solarwinds"),
-             T("iDRAC, iLO, IPMI", "cpu"), T("AnyConnect", "lock", "cisco"),
-             T("OpenVPN", "lock", "openvpn"), T("WireGuard", "lock", "wireguard"),
-             T("Pulse Secure", "lock"), T("Zscaler", "shield", "zscaler"),
-             T("JumpCloud", "key", "jumpcloud"), T("Hybrid migration", "cloud")],
+             T("Salesforce", "cloud", "salesforce"), T("VMware ESXi", "server", "vmware")],
+            [T("SCCM", "package"), T("Cisco CUCM", "desk-phone", "cisco"),
+             T("Cisco Catalyst", "network", "cisco"), T("Sophos Firewall", "shield", "sophos"),
+             T("Wireshark", "network", "wireshark"), T("SolarWinds", "chart", "solarwinds"),
+             T("iDRAC, iLO, IPMI", "cpu"), T("Zscaler", "shield", "zscaler"),
+             T("Hybrid migration", "cloud")],
         ]),
     dict(
         file="06-endeavour-health", when="2022 – 2023",
@@ -438,13 +428,11 @@ ROLES = [
         rows=[
             [T("Active Directory", "users"), T("Azure AD", "cloud", "microsoftazure"),
              T("Exchange", "mail", "microsoftexchange"), T("Group Policy", "sliders"),
-             T("SSO and MFA", "shield")],
-            [T("SCCM / MECM", "package"), T("PXE boot", "network"), T("BitLocker", "lock"),
-             T("ESXi and vSphere", "server", "vmware"), T("Citrix XenDesktop", "server", "citrix"),
-             T("XenApp", "server", "citrix")],
-            [T("SolarWinds", "chart", "solarwinds"), T("iDRAC, iLO, IPMI", "cpu"),
+             T("SSO and MFA", "shield"), T("SCCM / MECM", "package"), T("PXE boot", "network")],
+            [T("BitLocker", "lock"), T("ESXi and vSphere", "server", "vmware"),
+             T("Citrix XenDesktop", "server", "citrix"), T("SolarWinds", "chart", "solarwinds"),
              T("Cisco CUCM", "desk-phone", "cisco"), T("AnyConnect", "lock", "cisco"),
-             T("BigFix", "package"), T("Weekly reporting", "chart")],
+             T("BigFix", "package")],
         ]),
     dict(
         file="07-dyopath", when="2021 – 2022",
@@ -455,14 +443,11 @@ ROLES = [
         rows=[
             [T("ServiceNow", "checklist", "servicenow"), T("Azure AD", "cloud", "microsoftazure"),
              T("Oracle IAM", "key", "oracle"), T("SailPoint", "key", "sailpoint"),
-             T("Active Directory", "users"), T("Group Policy", "sliders")],
-            [T("SCCM", "package"), T("VMware Horizon", "server", "vmware"), T("Intune", "laptop"),
-             T("Exchange Online", "mail", "microsoftexchange"), T("Hybrid Exchange", "cloud"),
-             T("Outlook", "mail", "microsoftoutlook")],
-            [T("BitLocker", "lock"), T("Cisco AnyConnect", "lock", "cisco"),
-             T("SonicWall", "shield", "sonicwall"), T("DNS and DHCP", "network"),
-             T("Print servers", "printer"), T("ShadowBackup", "database"),
-             T("Team leadership", "users"), T("Knowledge base", "book")],
+             T("Active Directory", "users"), T("Group Policy", "sliders"), T("Intune", "laptop")],
+            [T("SCCM", "package"), T("VMware Horizon", "server", "vmware"),
+             T("Exchange Online", "mail", "microsoftexchange"), T("BitLocker", "lock"),
+             T("Cisco AnyConnect", "lock", "cisco"), T("SonicWall", "shield", "sonicwall"),
+             T("Team leadership", "users")],
         ]),
     dict(
         file="08-chicago-lab-services", when="2018 – now",
@@ -473,38 +458,36 @@ ROLES = [
         rows=[
             [T("Windows Server 2019", "server", "windows11", "windows"), T("Active Directory", "users"),
              T("Group Policy", "sliders"), T("3CX", "desk-phone", "3cx"),
-             T("Yealink", "desk-phone"), T("SIP and fax", "desk-phone")],
-            [T("pfSense", "shield", "pfsense"), T("VLANs and PoE", "network"),
-             T("Cat5e and Cat6", "cable"), T("Racks and servers", "server"),
-             T("Security cameras", "video")],
-            [T("Drupal", "globe", "drupal"), T("SiteGround", "globe", "siteground"),
-             T("McAfee", "shield", "mcafee"), T("Wolters Kluwer", "book", "wolterskluwer"),
-             T("Labsoft", "database"), T("HIPAA compliance", "shield"), T("Procurement", "package")],
+             T("Yealink", "desk-phone"), T("pfSense", "shield", "pfsense")],
+            [T("VLANs and PoE", "network"), T("Cat5e and Cat6", "cable"),
+             T("Racks and servers", "server"), T("Security cameras", "video"),
+             T("Drupal", "globe", "drupal"), T("McAfee", "shield", "mcafee"),
+             T("Wolters Kluwer", "book", "wolterskluwer")],
         ]),
 ]
 
 ROLE_CSS = """
-    .when { font: 500 21px @FONT@; letter-spacing: .6px; }
-    .role { font: 500 34px @FONT@; fill: #f4f7f6; }
-    .where { font: 500 22px @FONT@; }
-    .tag { font: 500 14.5px @FONT@; }
-    .chip { font: 500 16.5px @FONT@; fill: #eaf4f5; }
+    .when { font: 500 19px @FONT@; letter-spacing: .5px; }
+    .role { font: 500 30px @FONT@; fill: #f4f7f6; }
+    .where { font: 500 20px @FONT@; }
+    .chip { font: 500 15.5px @FONT@; fill: #eaf4f5; }
+    .tag { font: 500 13.5px @FONT@; }
     .pill { fill: #fff; fill-opacity: .09; stroke: #fff; stroke-opacity: .22; }
     .ic { color: #eaf4f5; }
     .gl { animation: gl 22s ease-in-out infinite alternate; }
     @keyframes gl { from { transform: translateX(-50px); } to { transform: translateX(70px); } }
-    @media (prefers-reduced-motion: reduce) { .a0, .a1, .a2, .gl { animation: none !important; } }
+    @media (prefers-reduced-motion: reduce) { .a0, .a1, .gl { animation: none !important; } }
 """.replace("@FONT@", FONT)
 
 
 def build_role(role, logos, out):
-    W, H = 1280, 250
+    W, H = 1280, 190
     pal = role["pal"]
     symbols = {}
     row_defs, row_uses, row_css = [], [], []
-    row_ys = [32, 102, 172]
-    speeds = [22, 17, 27]          # pixels per second: slow on purpose
-    phase = [0.10, 0.52, 0.80]     # where in its loop each row starts
+    row_ys = [34, 106]
+    speeds = [22, 27]              # pixels per second: slow on purpose
+    phase = [0.10, 0.62]           # where in its loop each row starts
     min_period = 1500
 
     for i, items in enumerate(role["rows"]):
@@ -512,16 +495,16 @@ def build_role(role, logos, out):
         for label, glyph, slugs in items:
             icon_id, sym = resolve_icon(logos, glyph, slugs)
             symbols[icon_id] = sym
-            tw = est_width(label, 16.5)
-            measured.append((label, icon_id, tw, 16 + 22 + 10 + tw + 20))
+            tw = est_width(label, 15.5)
+            measured.append((label, icon_id, tw, 14 + 20 + 9 + tw + 18))
         total = sum(m[3] for m in measured)
         gap = max(18.0, (min_period - total) / len(measured))
         x, parts = 0.0, []
         for label, icon_id, tw, w in measured:
             parts.append(
-                f'<g transform="translate({x:.1f},0)"><rect class="pill" width="{w:.1f}" height="46" rx="23"/>'
-                f'<use class="ic" href="#{icon_id}" x="16" y="12" width="22" height="22"/>'
-                f'<text class="chip" x="48" y="28.5" textLength="{tw:.1f}" lengthAdjust="spacing">{esc(label)}</text></g>'
+                f'<g transform="translate({x:.1f},0)"><rect class="pill" width="{w:.1f}" height="42" rx="21"/>'
+                f'<use class="ic" href="#{icon_id}" x="14" y="11" width="20" height="20"/>'
+                f'<text class="chip" x="43" y="26.5" textLength="{tw:.1f}" lengthAdjust="spacing">{esc(label)}</text></g>'
             )
             x += w + gap
         period = x
@@ -539,19 +522,18 @@ def build_role(role, logos, out):
 
     lines = role["role"]
     if len(lines) == 2:
-        y_when, y_roles, y_where = 62, [108, 148], 196
+        y_when, y_roles, y_where = 48, [88, 124], 162
     else:
-        y_when, y_roles, y_where = 80, [124], 172
+        y_when, y_roles, y_where = 64, [104], 142
+    role_text = "".join(f'<tspan x="64" y="{y}">{esc(t)}</tspan>' for t, y in zip(lines, y_roles))
+
     tag_svg = ""
     if role.get("tag"):
-        wx = 64 + est_width(role["when"], 21) + 0.6 * len(role["when"]) + 20
-        tw = est_width(role["tag"], 14.5)
-        tag_svg = (f'<g transform="translate({wx:.1f},{y_when - 21})">'
-                   f'<rect width="{tw + 26:.1f}" height="28" rx="14" fill="none" stroke="{pal["when"]}" stroke-opacity=".65"/>'
-                   f'<text class="tag" x="13" y="19" textLength="{tw:.1f}" lengthAdjust="spacing" fill="{pal["when"]}">{esc(role["tag"])}</text></g>')
-    role_text = "".join(
-        f'<tspan x="64" y="{y}">{esc(t)}</tspan>' for t, y in zip(lines, y_roles)
-    )
+        wx = 64 + est_width(role["when"], 19) + 0.5 * len(role["when"]) + 18
+        tw = est_width(role["tag"], 13.5)
+        tag_svg = (f'<g transform="translate({wx:.1f},{y_when - 19})">'
+                   f'<rect width="{tw + 24:.1f}" height="26" rx="13" fill="none" stroke="{pal["when"]}" stroke-opacity=".65"/>'
+                   f'<text class="tag" x="12" y="17.5" textLength="{tw:.1f}" lengthAdjust="spacing" fill="{pal["when"]}">{esc(role["tag"])}</text></g>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t">
   <title id="t">{esc(role["alt"])}</title>
@@ -587,7 +569,7 @@ def build_role(role, logos, out):
 
   <g clip-path="url(#card)">
     <rect width="{W}" height="{H}" fill="url(#bg)"/>
-    <ellipse class="gl" cx="1010" cy="70" rx="420" ry="210" fill="url(#glow)"/>
+    <ellipse class="gl" cx="1010" cy="60" rx="420" ry="190" fill="url(#glow)"/>
     <g mask="url(#fade)">
       {"".join(row_uses)}
     </g>
