@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" width="1280" height="250" role="img" aria-labelledby="t">
-  <title id="t">2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus. The tools used in this role drift by in the background.</title>
+  <title id="t">2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus, contract. The tools used in this role drift by in the background.</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0f2531"/>
@@ -30,6 +30,7 @@
     .when { font: 500 21px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; letter-spacing: .6px; }
     .role { font: 500 34px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #f4f7f6; }
     .where { font: 500 22px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; }
+    .tag { font: 500 14.5px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; }
     .chip { font: 500 16.5px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #eaf4f5; }
     .pill { fill: #fff; fill-opacity: .09; stroke: #fff; stroke-opacity: .22; }
     .ic { color: #eaf4f5; }
@@ -48,6 +49,7 @@
     </g>
     <rect width="760" height="250" fill="url(#scrim)"/>
     <text class="when" x="64" y="62" fill="#c3ecee">2023 – 2024</text>
+    <g transform="translate(212.8,41)"><rect width="84.0" height="28" rx="14" fill="none" stroke="#c3ecee" stroke-opacity=".65"/><text class="tag" x="13" y="19" textLength="58.0" lengthAdjust="spacing" fill="#c3ecee">Contract</text></g>
     <text class="role"><tspan x="64" y="108">Desktop, Network &amp;</tspan><tspan x="64" y="148">Infrastructure Support Specialist</tspan></text>
     <text class="where" x="64" y="196" fill="#d6f3f4">Alter Domus</text>
   </g>

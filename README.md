@@ -7,13 +7,16 @@
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/5u8han">LinkedIn</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="mailto:noeman.subhan@gmail.com">Email</a>
+  <a href="https://twitter.com/5u8han">Twitter / X</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="mailto:info@5u8han.dev">Email</a>
 </p>
 
 <p align="center">
   <sub>Jump to:
   <a href="#where-ive-been">Where I've been</a> &nbsp;/&nbsp;
   <a href="#the-road-ahead">The road ahead</a> &nbsp;/&nbsp;
+  <a href="#the-home-lab-in-motion">The home lab</a> &nbsp;/&nbsp;
   <a href="#skillboard">Skillboard</a></sub>
 </p>
 
@@ -25,7 +28,7 @@ Now I'm growing into systems administration across macOS, Windows and Linux, wit
 
 ## Right now
 
-- **Working:** Senior Desktop Support / Support Engineer at Tropicana Brands Group
+- **Working:** Senior Desktop Support / Support Engineer at Tropicana Brands Group (contract)
 - **Growing into:** systems administration for macOS, Windows and Linux, including cloud and hybrid
 - **Learning:** Java, JavaScript, SQL, Laravel, the Microsoft 365 suite, Docker and Kubernetes
 - **Tinkering:** virtualization and homelab setups with Proxmox, VMware and Docker
@@ -41,37 +44,37 @@ Now I'm growing into systems administration across macOS, Windows and Linux, wit
 
 ## Where I've been
 
-Eight stops, newest first. In each card, the tools from that role drift by in the background.
+Eight stops, newest first. The five most recent are contract roles. In each card, the tools from that role drift by in the background.
 
-<img src="assets/roles/01-tropicana.svg" alt="2025 to now: Senior Desktop Support / Support Engineer at Tropicana Brands Group" width="100%">
+<img src="assets/roles/01-tropicana.svg" alt="2025 to now: Senior Desktop Support / Support Engineer at Tropicana Brands Group, contract" width="100%">
 
 - On-site and cross-site support across multiple offices, including white-glove support for C-level leaders.
 - Windows and macOS troubleshooting, Microsoft 365, Teams, Outlook and SharePoint support, plus Teams Rooms, Zoom Rooms and AV for meeting spaces.
 - Endpoint provisioning, onboarding and offboarding, asset tracking, patching and compliance across sites, including Microsoft Surface deployment and inventory in an Intune-managed environment.
 - Identity and access in Okta and Google Workspace: MFA setup, password resets and access troubleshooting.
 
-<img src="assets/roles/02-robinhood.svg" alt="2024 to 2025: Support Engineer at Robinhood" width="100%">
+<img src="assets/roles/02-robinhood.svg" alt="2024 to 2025: Support Engineer at Robinhood, contract" width="100%">
 
 - Triaged and escalated tickets in ServiceNow and Jira as the link between users and engineers, with fixes documented in Confluence.
 - Administered Google Workspace, Slack, Okta and Microsoft 365: provisioning, access control and MFA.
 - Streamlined macOS and iOS management with JAMF Pro, integrating Apple Business Manager, Okta and FleetDM for zero-touch deployment and compliance tracking.
 - Set up and supported YubiKey with FIDO2, OTP and Touch ID, and ran hardware deployment projects that shipped pre-configured devices in large batches for new-hire waves.
 
-<img src="assets/roles/03-illinois-doit.svg" alt="2024: Helpdesk, Desktop and Network Specialist at the Illinois Department of Innovation and Technology" width="100%">
+<img src="assets/roles/03-illinois-doit.svg" alt="2024: Helpdesk, Desktop and Network Specialist at the Illinois Department of Innovation and Technology, contract" width="100%">
 
 - Managed Windows images with SCCM/MECM and PXE boot for zero-touch and batch deployments, with driver packs, BIOS and firmware built into the task sequences for Dell, HP and Lenovo hardware.
 - Provisioned endpoints with Intune and VMware AirWatch, supported Active Directory, Azure AD, Exchange and Microsoft 365 (E1, E3, E5), and pushed SCCM reporting into Power BI.
 - Ran hardware testing: thermal analysis, benchmarking, crash testing, battery life and feature validation.
 - Supported Cisco and Avaya VoIP, Zoom, Webex and AV, monitored servers and switches in SolarWinds, and automated tasks with PowerShell and SQL.
 
-<img src="assets/roles/04-kirkland-ellis.svg" alt="2024: Desktop Support Analyst III at Kirkland and Ellis LLP" width="100%">
+<img src="assets/roles/04-kirkland-ellis.svg" alt="2024: Desktop Support Analyst III at Kirkland and Ellis LLP, contract" width="100%">
 
 - Tier 2 and 3 desktop support for attorneys and staff in a law-firm environment: Windows 10, macOS, Microsoft 365, imaging, driver conflicts and patching through SCCM.
 - Managed user accounts, profiles and policies in Active Directory, Azure AD, Intune and AirWatch.
 - Deep Outlook troubleshooting: PST and OST issues, calendar sync, mailbox permissions, shared mailboxes, delegates and iManage integration.
 - Supported Avaya SIP phones through Avaya CM, including SIP registration, one-way audio, QoS and VLAN troubleshooting, alongside WLAN, DNS, DHCP, VPN and secure printing.
 
-<img src="assets/roles/05-alter-domus.svg" alt="2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus" width="100%">
+<img src="assets/roles/05-alter-domus.svg" alt="2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus, contract" width="100%">
 
 - First point of contact in ServiceNow and the link between engineers, VPs and clients, with knowledge-base articles kept current.
 - Supported Active Directory, Azure AD, Microsoft 365, Google Workspace, Teams, Zoom, Salesforce and DocuSign, and provisioned VMs on ESXi and vSphere.
@@ -94,7 +97,7 @@ Eight stops, newest first. In each card, the tools from that role drift by in th
 - Endpoint work with SCCM, VMware Horizon and Intune, Exchange Online and hybrid mailboxes, BitLocker, VPN (AnyConnect, SonicWall), DNS, DHCP and print servers.
 - Led and trained a department of tech specialists, monitored queues, and worked with Field Service Onsite teams.
 
-<img src="assets/roles/08-chicago-lab-services.svg" alt="2018 to now: Desktop Support, per diem, at Chicago Lab Services Inc." width="100%">
+<img src="assets/roles/08-chicago-lab-services.svg" alt="2018 to now: Desktop Support, per diem, at Chicago Lab Services Inc., a full-time infrastructure build that became on-call support" width="100%">
 
 - Planned and built the company's IT environment from the ground up: sizing, procurement and deployment of PCs, laptops, printers, servers, firewalls, switches, SIP phones, cameras and cabling.
 - Windows Server 2019 and Active Directory with role-based access and Group Policy, with lab and accounting software integrated into AD.
@@ -109,13 +112,13 @@ I'm working toward a systems administrator role that covers macOS, Windows and L
 
 ### Accomplishments so far
 
-- Planned and built a company's IT environment from scratch at Chicago Lab Services: network, servers, phones, firewall, cabling and a secure report portal.
+- Planned and built a company's IT environment from scratch at Chicago Lab Services: network, servers, phones, firewall and cabling.
 - Managed macOS and iOS fleets with JAMF Pro, Apple Business Manager, Okta and FleetDM at Robinhood.
 - Ran large-batch hardware deployments for new-hire waves, and built zero-touch Windows deployments with SCCM/MECM and PXE at Illinois DoIT and Endeavour Health.
 - Ran hardware testing at Illinois DoIT: thermal analysis, benchmarking, crash testing and battery life.
 - Led a service desk team at an MSP, and trained and onboarded teammates at Alter Domus.
 - Supported executives and leadership teams at Robinhood and Tropicana.
-- Completed a Bachelor's in Computer Science (2020 to 2023) while working in IT, and earned CompTIA A+, Network+ and Security+.
+- Studied Computer Science (2020 to 2023) while working in IT.
 
 ### Happy moments
 
@@ -124,7 +127,6 @@ I'm working toward a systems administrator role that covers macOS, Windows and L
 - Standing up a whole office, from bare cable runs to a working phone system and domain.
 - Tracking a stubborn problem down to its root cause after a long walk through the logs.
 - Seeing someone I trained handle a tricky ticket on their own.
-- Finishing a Computer Science degree while working in IT.
 
 ### Learning moments
 
@@ -142,6 +144,24 @@ I'm working toward a systems administrator role that covers macOS, Windows and L
 - **Cloud and hybrid:** Azure, GCP and Cloudflare alongside on-prem virtualization (ESXi, Hyper-V, Proxmox), with DNS, VPN and VLAN design tying them together.
 - **Automation and visibility:** PowerShell, Python and SQL to remove repetitive work, and logs and monitoring (SolarWinds, Logstash, Kibana) to spot problems before users do.
 - **Process:** finishing ITIL v4 Foundation.
+
+## The home lab, in motion
+
+The home page of my website project, Signal Room, opens on an illustrated version of my home lab: a parts bench, four equipment racks, a management console and my desk. Every so often something breaks. The character at the desk, a stylized me, reads the alert, traces the cause from the console, walks to the right rack, fixes it, checks the result and heads back to the desk.
+
+<img src="assets/signal-room/home-lab.webp" alt="Animated render of the Signal Room home page, an illustrated home lab with a parts bench, four server racks and a desk. A storage drive fails, and the character at the desk reads the alert, uses the console, replaces the drive at the rack, checks the result and returns to the desk." width="100%">
+
+<sub>One storage drive failure from alert to recovery, sped up 2×. The lights, screens and traffic are authored illustration rather than live telemetry, and the equipment is drawn from familiar HPE, Dell, Supermicro and Cisco hardware, so it's a sketch of the lab rather than an exact inventory.</sub>
+
+There are ten repair stories, and each follows the same loop: notice, diagnose, fix, verify, then go back to what I was doing.
+
+- **Hardware:** a redundant power supply failure (with a rear-service view of the racks), a failed storage drive and its rebuild, a GPU host airflow alert, and a liquid spill at the workstation.
+- **Capacity:** a compute host that runs out of memory and gets an upgrade, and a storage pool that fills up and gets expanded.
+- **Network:** the primary fiber link drops and traffic fails over to coax, and when both wired links are down, essential traffic moves to a cellular backup.
+- **Power:** a mains outage while UPS-backed equipment stays up.
+- **Applications:** a service stops responding while the host stays healthy, and the fix happens through the console.
+
+It's a simulation, but the rhythm is how I like to work: read the alert, find the cause, fix the right thing, and check that it's actually fixed.
 
 ## Credentials
 
@@ -342,7 +362,7 @@ Everything I work with, grouped so it's easy to scan. The middle column lists ot
 | McAfee Endpoint Security | McAfee | Illinois DoIT, Chicago Lab Services |
 | Endpoint compliance tracking | compliance enforcement | Tropicana, Robinhood, DyoPath |
 | Security policy enforcement | Active Directory, Azure AD, Intune, AirWatch policies | Kirkland & Ellis |
-| HIPAA and state healthcare compliance | HIPAA | Chicago Lab Services |
+| Healthcare compliance support (HIPAA, state) | HIPAA | Chicago Lab Services |
 | Penetration test remediation | vulnerability remediation | Chicago Lab Services |
 | CompTIA Security+ | Security Plus | Certification |
 | Discretion with confidential information | executive and legal environments | Tropicana, Robinhood, Kirkland & Ellis |
@@ -410,15 +430,15 @@ Everything I work with, grouped so it's easy to scan. The middle column lists ot
 
 <br>
 
-Windows 10 and 11, Win10, Win11, Windows Server 2016 to 2025, Server 2016, 2019, 2022, 2025, macOS, Mac, Apple, iOS, iPhone, Android device management, Android MDM, Linux (RHEL, CentOS, Debian), Red Hat Enterprise Linux, Unix, Arch Linux, Arch, Microsoft Surface (Laptop 5 and 6, Pro 9), Surface Laptop, Surface Pro, Dell, HP and Lenovo laptops and desktops, OEM hardware, Printers and secure printing, print servers, print cards, Mobile devices (iOS and Android), MDM, Microsoft Intune, Endpoint Manager, MEM, SCCM / MECM, Configuration Manager, ConfigMgr, Endpoint Configuration Manager, PXE boot and task sequences, OSD, operating system deployment, Driver, BIOS and firmware packaging, Dell Command, HP Image Assistant, Windows image building, imaging, ISO packaging, Application packaging and deployment, software deployment, VMware AirWatch, Workspace ONE UEM, JAMF Pro, Jamf, Apple MDM, Apple Business Manager, ABM, FleetDM, Fleet, Zero-touch deployment, automated provisioning, Large-batch hardware provisioning, new-hire rollouts, Device lifecycle and asset tracking, inventory, CMDB, Patch management, Windows Update, updates, BigFix, HCL BigFix, BitLocker, disk encryption, recovery, FileVault, Mac disk encryption, Group Policy, GPO, Windows 11 feature-update pinning, 24H2 version lock, local policy, Hardware testing and validation, benchmarking, thermal testing, crash testing, SCCM reporting in Power BI, reporting, Active Directory, AD DS, domain controllers, Azure AD / Microsoft Entra ID, Entra ID, AAD, Okta, Okta SSO, Okta MFA, provisioning, Single sign-on (SSO), SSO, Multi-factor authentication (MFA), 2FA, MFA, YubiKey, FIDO2, OTP and Touch ID, hardware security keys, Passwordless sign-in, passwordless, LDAP, directory services, Oracle IAM, identity management, SailPoint, identity governance, User provisioning and deprovisioning, onboarding, offboarding, Role-based access control, RBAC, Mailbox and distribution list permissions, shared mailboxes, delegates, Password resets and access troubleshooting, authentication, Microsoft 365 (E1, E3, E5), M365, Office 365, O365, Exchange Online and hybrid Exchange, EXO, Outlook, PST, OST, Autodiscover, calendar sync, Microsoft Teams, Teams, SharePoint and OneDrive, SharePoint Online, Google Workspace, G Suite, Google Apps, Slack, Slack administration, Zoom, Zoom administration, Zoom Rooms, meeting rooms, Microsoft Teams Rooms, Teams Rooms, Webex, Cisco Webex, Conference room AV, meeting room technology, Salesforce and DocuSign support, SaaS support, iManage, document management, ServiceNow, ITSM, incident, change, request, Jira, Atlassian, Confluence, knowledge base, KESM ticketing, ticketing, Knowledge base and SOP writing, documentation, runbooks, configuration management database, Incident, problem and change management, ITIL practices, ITIL v4 Foundation, ITIL 4, Root cause and log analysis, RCA, VMware vSphere and ESXi, VMware, virtual machines, VMware Horizon, VDI, Citrix XenDesktop and XenApp, Citrix, Hyper-V, Microsoft Hyper-V, Proxmox VE, Proxmox, QEMU-KVM, KVM, LXC and Docker containers, Docker, LXC, Kubernetes, K8s, ZFS and Btrfs, filesystems, Microsoft Azure, Azure, Google Cloud Platform, GCP, Cloudflare Workers and Pages, Cloudflare, Hybrid cloud migration, multi-site migration, VM provisioning and resource allocation, virtual machine management, Backup software, ShadowBackup, TCP/IP, networking fundamentals, DNS, Domain Name System, DHCP, static and dynamic addressing, VLANs (trunk and access tagging), 802.1Q, Routing and NAT, network address translation, Wi-Fi and WLAN (access points), wireless, WAP, LAN troubleshooting, network troubleshooting, QoS, quality of service, SNMP, network monitoring, Load balancers (Kemp), Kemp, Cisco Catalyst switches, Cisco switching, Cisco Meraki, Meraki, pfSense, firewall, Sophos Firewall, Sophos, SonicWall VPN, SonicWall, Wireshark, packet capture, SolarWinds, network and server monitoring, Cisco AnyConnect VPN, AnyConnect, OpenVPN, VPN, WireGuard, Pulse Secure, Zscaler, secure access, JumpCloud, directory and VPN, Structured cabling (Cat5e and Cat6), Ethernet termination, PoE switches and gateways, Power over Ethernet, Network segmentation and port security, segmentation, Cisco CUCM, Cisco Unified Communications Manager, Call Manager, Cisco desk phones, Cisco VoIP, Cisco X series video, video conferencing, Avaya Communication Manager and SIP phones, Avaya CM, 3CX phone system, 3CX, Yealink handsets, Yealink, SIP troubleshooting, registration, one-way audio, SIP fax, fax over IP, Server hardware (Cisco, Dell, HPE, Supermicro), rack servers, HPE ProLiant and Dell PowerEdge, server deployment, IPMI, iDRAC and iLO, out-of-band management, Hardware diagnostics (disk, RAM, power supply) and RMA, hardware failure diagnosis, Firmware and patch updates, firmware management, Rack, stack and cabling, datacenter installation, IIS, Internet Information Services, Nginx and Apache, LAMP stack, web servers, print queues, McAfee Endpoint Security, McAfee, Endpoint compliance tracking, compliance enforcement, Security policy enforcement, Azure AD, Intune, AirWatch policies, HIPAA and state healthcare compliance, HIPAA, Penetration test remediation, vulnerability remediation, CompTIA Security+, Security Plus, Discretion with confidential information, executive and legal environments, PowerShell, Windows automation, SQL, database queries, Python, scripting, C# and ASP.NET, .NET, DotNet, Java, Java development, JavaScript, JS, HTML and CSS, front-end, C and C++, systems programming, Laravel, PHP framework, PyQt, Qt for Python, Arduino, embedded, electronics, Git and GitHub, version control, Drupal, CMS, Logstash and Kibana, ELK stack, Photoshop, Adobe Photoshop, Tier 1, 2 and 3 support, help desk, service desk, desktop support, White-glove executive support, VIP, C-level support, Remote and on-site support, desk-side support, Team leadership and training, team lead, mentoring, Cross-team collaboration and escalation, stakeholder communication, Vendor and RMA coordination, vendor management, Procurement and sizing, hardware purchasing, Multi-site deployment projects, rollouts, Release and change management, change control, Weekly and management reporting, Financial services, fintech, asset management, Legal, law firm, Healthcare, hospital, lab, Public sector, state government, Consumer goods, food and beverage, Managed service provider (MSP), MSP, CompTIA A+, A Plus, CompTIA Network+, Network Plus, Bachelor's in Computer Science, BS Computer Science, Northeastern Illinois University
+Windows 10 and 11, Win10, Win11, Windows Server 2016 to 2025, Server 2016, 2019, 2022, 2025, macOS, Mac, Apple, iOS, iPhone, Android device management, Android MDM, Linux (RHEL, CentOS, Debian), Red Hat Enterprise Linux, Unix, Arch Linux, Arch, Microsoft Surface (Laptop 5 and 6, Pro 9), Surface Laptop, Surface Pro, Dell, HP and Lenovo laptops and desktops, OEM hardware, Printers and secure printing, print servers, print cards, Mobile devices (iOS and Android), MDM, Microsoft Intune, Endpoint Manager, MEM, SCCM / MECM, Configuration Manager, ConfigMgr, Endpoint Configuration Manager, PXE boot and task sequences, OSD, operating system deployment, Driver, BIOS and firmware packaging, Dell Command, HP Image Assistant, Windows image building, imaging, ISO packaging, Application packaging and deployment, software deployment, VMware AirWatch, Workspace ONE UEM, JAMF Pro, Jamf, Apple MDM, Apple Business Manager, ABM, FleetDM, Fleet, Zero-touch deployment, automated provisioning, Large-batch hardware provisioning, new-hire rollouts, Device lifecycle and asset tracking, inventory, CMDB, Patch management, Windows Update, updates, BigFix, HCL BigFix, BitLocker, disk encryption, recovery, FileVault, Mac disk encryption, Group Policy, GPO, Windows 11 feature-update pinning, 24H2 version lock, local policy, Hardware testing and validation, benchmarking, thermal testing, crash testing, SCCM reporting in Power BI, reporting, Active Directory, AD DS, domain controllers, Azure AD / Microsoft Entra ID, Entra ID, AAD, Okta, Okta SSO, Okta MFA, provisioning, Single sign-on (SSO), SSO, Multi-factor authentication (MFA), 2FA, MFA, YubiKey, FIDO2, OTP and Touch ID, hardware security keys, Passwordless sign-in, passwordless, LDAP, directory services, Oracle IAM, identity management, SailPoint, identity governance, User provisioning and deprovisioning, onboarding, offboarding, Role-based access control, RBAC, Mailbox and distribution list permissions, shared mailboxes, delegates, Password resets and access troubleshooting, authentication, Microsoft 365 (E1, E3, E5), M365, Office 365, O365, Exchange Online and hybrid Exchange, EXO, Outlook, PST, OST, Autodiscover, calendar sync, Microsoft Teams, Teams, SharePoint and OneDrive, SharePoint Online, Google Workspace, G Suite, Google Apps, Slack, Slack administration, Zoom, Zoom administration, Zoom Rooms, meeting rooms, Microsoft Teams Rooms, Teams Rooms, Webex, Cisco Webex, Conference room AV, meeting room technology, Salesforce and DocuSign support, SaaS support, iManage, document management, ServiceNow, ITSM, incident, change, request, Jira, Atlassian, Confluence, knowledge base, KESM ticketing, ticketing, Knowledge base and SOP writing, documentation, runbooks, configuration management database, Incident, problem and change management, ITIL practices, ITIL v4 Foundation, ITIL 4, Root cause and log analysis, RCA, VMware vSphere and ESXi, VMware, virtual machines, VMware Horizon, VDI, Citrix XenDesktop and XenApp, Citrix, Hyper-V, Microsoft Hyper-V, Proxmox VE, Proxmox, QEMU-KVM, KVM, LXC and Docker containers, Docker, LXC, Kubernetes, K8s, ZFS and Btrfs, filesystems, Microsoft Azure, Azure, Google Cloud Platform, GCP, Cloudflare Workers and Pages, Cloudflare, Hybrid cloud migration, multi-site migration, VM provisioning and resource allocation, virtual machine management, Backup software, ShadowBackup, TCP/IP, networking fundamentals, DNS, Domain Name System, DHCP, static and dynamic addressing, VLANs (trunk and access tagging), 802.1Q, Routing and NAT, network address translation, Wi-Fi and WLAN (access points), wireless, WAP, LAN troubleshooting, network troubleshooting, QoS, quality of service, SNMP, network monitoring, Load balancers (Kemp), Kemp, Cisco Catalyst switches, Cisco switching, Cisco Meraki, Meraki, pfSense, firewall, Sophos Firewall, Sophos, SonicWall VPN, SonicWall, Wireshark, packet capture, SolarWinds, network and server monitoring, Cisco AnyConnect VPN, AnyConnect, OpenVPN, VPN, WireGuard, Pulse Secure, Zscaler, secure access, JumpCloud, directory and VPN, Structured cabling (Cat5e and Cat6), Ethernet termination, PoE switches and gateways, Power over Ethernet, Network segmentation and port security, segmentation, Cisco CUCM, Cisco Unified Communications Manager, Call Manager, Cisco desk phones, Cisco VoIP, Cisco X series video, video conferencing, Avaya Communication Manager and SIP phones, Avaya CM, 3CX phone system, 3CX, Yealink handsets, Yealink, SIP troubleshooting, registration, one-way audio, SIP fax, fax over IP, Server hardware (Cisco, Dell, HPE, Supermicro), rack servers, HPE ProLiant and Dell PowerEdge, server deployment, IPMI, iDRAC and iLO, out-of-band management, Hardware diagnostics (disk, RAM, power supply) and RMA, hardware failure diagnosis, Firmware and patch updates, firmware management, Rack, stack and cabling, datacenter installation, IIS, Internet Information Services, Nginx and Apache, LAMP stack, web servers, print queues, McAfee Endpoint Security, McAfee, Endpoint compliance tracking, compliance enforcement, Security policy enforcement, Azure AD, Intune, AirWatch policies, Healthcare compliance support (HIPAA, state), HIPAA, Penetration test remediation, vulnerability remediation, CompTIA Security+, Security Plus, Discretion with confidential information, executive and legal environments, PowerShell, Windows automation, SQL, database queries, Python, scripting, C# and ASP.NET, .NET, DotNet, Java, Java development, JavaScript, JS, HTML and CSS, front-end, C and C++, systems programming, Laravel, PHP framework, PyQt, Qt for Python, Arduino, embedded, electronics, Git and GitHub, version control, Drupal, CMS, Logstash and Kibana, ELK stack, Photoshop, Adobe Photoshop, Tier 1, 2 and 3 support, help desk, service desk, desktop support, White-glove executive support, VIP, C-level support, Remote and on-site support, desk-side support, Team leadership and training, team lead, mentoring, Cross-team collaboration and escalation, stakeholder communication, Vendor and RMA coordination, vendor management, Procurement and sizing, hardware purchasing, Multi-site deployment projects, rollouts, Release and change management, change control, Weekly and management reporting, Financial services, fintech, asset management, Legal, law firm, Healthcare, hospital, lab, Public sector, state government, Consumer goods, food and beverage, Managed service provider (MSP), MSP, CompTIA A+, A Plus, CompTIA Network+, Network Plus, Bachelor's in Computer Science, BS Computer Science, Northeastern Illinois University
 
 </details>
 
-## Say hi
+## Elsewhere
 
-Always up for a chat about endpoint management, identity, homelabs, or what's worth learning next.
+The rest of my corner of the internet.
 
-[Website](https://5u8han.dev) &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/5u8han) &nbsp;/&nbsp; [Email](mailto:noeman.subhan@gmail.com)
+[Website](https://5u8han.dev) &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/5u8han) &nbsp;/&nbsp; [Twitter / X](https://twitter.com/5u8han) &nbsp;/&nbsp; [Email](mailto:info@5u8han.dev)
 
 <br>
 

@@ -30,6 +30,7 @@
     .when { font: 500 21px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; letter-spacing: .6px; }
     .role { font: 500 34px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #f4f7f6; }
     .where { font: 500 22px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; }
+    .tag { font: 500 14.5px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; }
     .chip { font: 500 16.5px "Avenir Next", "Segoe UI", "SF Pro Text", "Helvetica Neue", Inter, "DM Sans", "Open Sans", Arial, sans-serif; fill: #eaf4f5; }
     .pill { fill: #fff; fill-opacity: .09; stroke: #fff; stroke-opacity: .22; }
     .ic { color: #eaf4f5; }
@@ -48,6 +49,7 @@
     </g>
     <rect width="760" height="250" fill="url(#scrim)"/>
     <text class="when" x="64" y="62" fill="#cdeeff">2021 – 2022</text>
+    
     <text class="role"><tspan x="64" y="108">Service Desk Analyst 3 &amp;</tspan><tspan x="64" y="148">Team Lead</tspan></text>
     <text class="where" x="64" y="196" fill="#dff3ff">DyoPath LP (MSP), remote</text>
   </g>

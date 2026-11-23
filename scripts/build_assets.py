@@ -341,8 +341,8 @@ ROLES = [
     dict(
         file="01-tropicana", when="2025 – now",
         role=["Senior Desktop Support /", "Support Engineer"],
-        where="Tropicana Brands Group",
-        alt="2025 to now: Senior Desktop Support / Support Engineer at Tropicana Brands Group. The tools used in this role drift by in the background.",
+        where="Tropicana Brands Group", tag="Contract",
+        alt="2025 to now: Senior Desktop Support / Support Engineer at Tropicana Brands Group, contract. The tools used in this role drift by in the background.",
         pal=dict(bg=("#14243b", "#27486b", "#5b7f9f"), when="#f2c79b", where="#bfe3e1", glow="#f2b48f"),
         rows=[
             [T("Microsoft 365", "cloud", "microsoftoffice"), T("Teams", "chat", "microsoftteams"),
@@ -359,8 +359,8 @@ ROLES = [
     dict(
         file="02-robinhood", when="2024 – 2025",
         role=["Support Engineer"],
-        where="Robinhood",
-        alt="2024 to 2025: Support Engineer at Robinhood. The tools used in this role drift by in the background.",
+        where="Robinhood", tag="Contract",
+        alt="2024 to 2025: Support Engineer at Robinhood, contract. The tools used in this role drift by in the background.",
         pal=dict(bg=("#0e2a2b", "#1c5453", "#3c8c7c"), when="#bff0d2", where="#d8f3e8", glow="#8fe3b8"),
         rows=[
             [T("ServiceNow", "checklist", "servicenow"), T("Jira", "checklist", "jira"),
@@ -376,8 +376,8 @@ ROLES = [
     dict(
         file="03-illinois-doit", when="2024",
         role=["Helpdesk, Desktop &", "Network Specialist"],
-        where="Illinois Dept. of Innovation & Technology",
-        alt="2024: Helpdesk, Desktop and Network Specialist at the Illinois Department of Innovation and Technology. The tools used in this role drift by in the background.",
+        where="Illinois Dept. of Innovation & Technology", tag="Contract",
+        alt="2024: Helpdesk, Desktop and Network Specialist at the Illinois Department of Innovation and Technology, contract. The tools used in this role drift by in the background.",
         pal=dict(bg=("#101f3d", "#24467a", "#4b7cb5"), when="#cfe0ff", where="#dbe8ff", glow="#8fb8ff"),
         rows=[
             [T("SCCM / MECM", "package"), T("PXE boot", "network"), T("Intune", "laptop"),
@@ -395,8 +395,8 @@ ROLES = [
     dict(
         file="04-kirkland-ellis", when="2024",
         role=["Desktop Support Analyst III"],
-        where="Kirkland & Ellis LLP",
-        alt="2024: Desktop Support Analyst III at Kirkland and Ellis LLP. The tools used in this role drift by in the background.",
+        where="Kirkland & Ellis LLP", tag="Contract",
+        alt="2024: Desktop Support Analyst III at Kirkland and Ellis LLP, contract. The tools used in this role drift by in the background.",
         pal=dict(bg=("#1a1833", "#392f61", "#6a5a97"), when="#e2d6ff", where="#ece4ff", glow="#b9a3ff"),
         rows=[
             [T("Active Directory", "users"), T("Azure AD", "cloud", "microsoftazure"),
@@ -412,8 +412,8 @@ ROLES = [
     dict(
         file="05-alter-domus", when="2023 – 2024",
         role=["Desktop, Network &", "Infrastructure Support Specialist"],
-        where="Alter Domus",
-        alt="2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus. The tools used in this role drift by in the background.",
+        where="Alter Domus", tag="Contract",
+        alt="2023 to 2024: Desktop, Network and Infrastructure Support Specialist at Alter Domus, contract. The tools used in this role drift by in the background.",
         pal=dict(bg=("#0f2531", "#214f61", "#458694"), when="#c3ecee", where="#d6f3f4", glow="#7fd6dc"),
         rows=[
             [T("ServiceNow", "checklist", "servicenow"), T("Confluence", "book", "confluence"),
@@ -467,8 +467,8 @@ ROLES = [
     dict(
         file="08-chicago-lab-services", when="2018 – now",
         role=["Desktop Support (per diem)"],
-        where="Chicago Lab Services Inc.",
-        alt="2018 to now: Desktop Support, per diem, at Chicago Lab Services Inc. The tools used in this role drift by in the background.",
+        where="Chicago Lab Services Inc.", tag="Full-time build, then on-call",
+        alt="2018 to now: Desktop Support, per diem, at Chicago Lab Services Inc., a full-time infrastructure build that became on-call support. The tools used in this role drift by in the background.",
         pal=dict(bg=("#12282a", "#225b55", "#6bb3a0"), when="#d9f6e6", where="#e6faf0", glow="#9fe3c6"),
         rows=[
             [T("Windows Server 2019", "server", "windows11", "windows"), T("Active Directory", "users"),
@@ -487,6 +487,7 @@ ROLE_CSS = """
     .when { font: 500 21px @FONT@; letter-spacing: .6px; }
     .role { font: 500 34px @FONT@; fill: #f4f7f6; }
     .where { font: 500 22px @FONT@; }
+    .tag { font: 500 14.5px @FONT@; }
     .chip { font: 500 16.5px @FONT@; fill: #eaf4f5; }
     .pill { fill: #fff; fill-opacity: .09; stroke: #fff; stroke-opacity: .22; }
     .ic { color: #eaf4f5; }
@@ -541,6 +542,13 @@ def build_role(role, logos, out):
         y_when, y_roles, y_where = 62, [108, 148], 196
     else:
         y_when, y_roles, y_where = 80, [124], 172
+    tag_svg = ""
+    if role.get("tag"):
+        wx = 64 + est_width(role["when"], 21) + 0.6 * len(role["when"]) + 20
+        tw = est_width(role["tag"], 14.5)
+        tag_svg = (f'<g transform="translate({wx:.1f},{y_when - 21})">'
+                   f'<rect width="{tw + 26:.1f}" height="28" rx="14" fill="none" stroke="{pal["when"]}" stroke-opacity=".65"/>'
+                   f'<text class="tag" x="13" y="19" textLength="{tw:.1f}" lengthAdjust="spacing" fill="{pal["when"]}">{esc(role["tag"])}</text></g>')
     role_text = "".join(
         f'<tspan x="64" y="{y}">{esc(t)}</tspan>' for t, y in zip(lines, y_roles)
     )
@@ -585,6 +593,7 @@ def build_role(role, logos, out):
     </g>
     <rect width="760" height="{H}" fill="url(#scrim)"/>
     <text class="when" x="64" y="{y_when}" fill="{pal["when"]}">{esc(role["when"])}</text>
+    {tag_svg}
     <text class="role">{role_text}</text>
     <text class="where" x="64" y="{y_where}" fill="{pal["where"]}">{esc(role["where"])}</text>
   </g>
